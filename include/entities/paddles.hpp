@@ -1,3 +1,6 @@
+#ifndef ENTITIES_PADDLES_HPP
+#define ENTITIES_PADDLES_HPP 1
+
 #include <raylib-cpp.hpp>
 
 #include <entities/entity.hpp>
@@ -33,3 +36,5 @@ class Paddle : Entity {
   raylib::Rectangle Get();
 };
 }  // namespace game::entities
+
+#endif  // ENTITIES_PADDLES_HPP
